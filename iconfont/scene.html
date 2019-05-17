@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="renderer" content="webkit">
+      <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/>
+      <meta charset="utf-8">
+      <title>
+          图标字体使用场景
+      </title>
+      <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" href="iconfontDemo/demo.css">
+    </head>
+    <body>
+      <div class="main markdown">
+          <h1>图标字体使用场景</h1>
+          <ul>
+            <li>
+              <h3>1.web app(H5) 小图标 放大失真问题解决；</h3>
+              <ul>
+                <li>移动页面大多数情况没办法用雪碧图，用了雪碧图表示图片大小固定了，而移动端需要兼容不同屏幕大小的移动设备，这就需要图片是可以根据屏幕尺寸而改变的。
+                如果你的图尺寸是固定的，那就可以用雪碧图。</li>
+              </ul>
+            </li>
+
+            <li>
+              <h3>2.PC端小图标性能更佳、小图标尺寸修改不用改原图；</h3>
+              <ul>
+                <li>PC端页面优化，可将部分（不是所有）雪碧图换成小图标，字体图标比雪碧图的http请求要少、体积要小；（加载一个页面时可能有多张雪碧图，但使用字体图标，文件一个就够）</li>
+                <li>PC端做换肤业务时，使用了字体图标实现起来更加的优雅、方便；</li>
+              </ul>
+            </li>
+          </ul>
+
+          <hr/>
+          <h1>图标字体优缺点</h1>
+          <ul>
+            <li>
+              <h3>1.优点；</h3>
+              <ul>
+                <li>轻量（文件体积小）、灵活（样式可改变图标）、兼容性好（IE8+）。</li>
+                <li>icoMoon IE7支持实现原理：</li>
+                <li>样式上用*zoom 触发重绘（触发haslayout）， 脚本上检测 关键字className动态插入dom节点实现；</li>
+              </ul>
+            </li>
+
+            <li>
+              <h3>2.缺点；</h3>
+              <ul>
+                <li>图标只能单色调（太复杂的多色图标无法实现）、生成图标字体相对花时间。</li>
+                <li>阿里巴巴iconfont+ 多色图标实现原理： </li>
+                <li>生成svg合集， 然后使用svg呈现图标。</li>
+              </ul>
+            </li>
+          </ul>
+
+      </div>
+    </body>
+</html>

@@ -1,5 +1,7 @@
 ### 前端代码集合
 
+* [本代码集合演示地址](http://wteam-xq.github.io/testDemo/index.html)
+
 * 1.判断用户点击还是js点击；
   * [isTrusted.html](https://github.com/wteam-xq/testDemo/blob/master/isTrusted.html)
 
@@ -14,6 +16,7 @@
 
 * 5.原生js 节点操作：
   * [nodeOperate.html](https://github.com/wteam-xq/testDemo/blob/master/nodeOperate.html)
+  * [DOM_demo.html](https://github.com/wteam-xq/testDemo/blob/master/DOM_demo.html)
 
 * 6.正则用法：
   * [nodeOperate.html](https://github.com/wteam-xq/testDemo/blob/master/regexp.html)
@@ -51,8 +54,8 @@
 * 17.css3 伸缩布局盒：
   * [cssFlexBox.html](https://github.com/wteam-xq/testDemo/blob/master/cssFlexBox.html)
 
-* 18.浏览器检测:
-  * [client.js](https://github.com/wteam-xq/testDemo/blob/master/utils/client.js)
+* 18.浏览器信息:
+  * [browser_info.html](https://github.com/wteam-xq/testDemo/blob/master/browser_info.html)
 
 * 19.浏览器兼容
   * [IESupport.html](https://github.com/wteam-xq/testDemo/blob/master/IESupport.html)
@@ -63,11 +66,22 @@
 * 21.flash与js通信
   * [flashDemo](https://github.com/wteam-xq/testDemo/blob/master/flashDemo/index.html)
 
+* 22.图标字体
+  * [iconfontDemo](https://github.com/wteam-xq/testDemo/blob/master/iconfont/index.html)
+
+* 23.HTML转义字符
+  * [EscapeSequence](https://github.com/wteam-xq/testDemo/blob/master/EscapeSequence.html)
+
 * other:
   * [项目开发中遇到的bug小demo](https://github.com/wteam-xq/testDemo/blob/master/challenge_case)
   * [socket.io测试demo](https://github.com/wteam-xq/testDemo/blob/master/socket.io)
   * [sass学习Demo](https://github.com/wteam-xq/testDemo/blob/master/sass)
-  * [收藏的面试题连接大全](https://github.com/wteam-xq/testDemo/blob/master/exam_questions.md)
+  * [ES6学习笔记](https://github.com/wteam-xq/testDemo/blob/master/ECMAScript/ES6/README.md)
+  * [前端笔试、面试题](https://github.com/wteam-xq/testDemo/blob/master/exam_questions.md)
+  * [个人书单](https://github.com/wteam-xq/testDemo/blob/master/my_books.md)
 
 * angular:
   * [angularjs 路由demo](https://github.com/wteam-xq/testDemo/blob/master/angular/angularRoute.html)
+
+* react:
+  * [React 学习笔记](https://github.com/wteam-xq/testDemo/blob/master/react/index.html)

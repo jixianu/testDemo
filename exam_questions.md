@@ -1,30 +1,47 @@
 ### 笔试题收藏：
 
-* 2014面试题大全（141101 更新）:    
-  [2014年最新前端开发面试题](http://clisvoi.blog.163.com/blog/static/2014980502014327104119515/)  
-  [腾讯面试](http://www.w3cfuns.com/article-5598237-1-1.html)  
+* 2014面试题:  
   [跳槽必看](http://developer.51cto.com/art/201202/314618.htm)  
-  [常见问题](http://www.csdn.net/article/2012-10-18/2810902-Front-end-Developer-Interview-Questions)  
-* 150302(更新)  
-  [简历模板](https://github.com/hacke2/ResumeSample)
-* 我最近收藏的题库(150629更新):  
+  [常见问题](http://www.csdn.net/article/2012-10-18/2810902-Front-end-Developer-Interview-Questions) 
+  [简历模板](https://github.com/hacke2/ResumeSample) 
   [魅族前端面试题](http://weibo.com/p/1001603857375168721423)  
-  [人人面试题](http://www.w3cfuns.com/thread-5591957-1-1.html)  
-  [阿里前端面试题](http://www.w3cfuns.com/thread-5598563-2-1.html)  
-  [腾讯面试题](http://www.w3cfuns.com/article-5599657-1-1.html)   
   [年后跳槽那点事：乐视+金山+360面试之行](http://www.cnblogs.com/lvdabao/p/3660707.html)  
-  [阿里前端面试题上线](http://fatesinger.com/2722.html)  
   [拉勾网js面试题](http://www.cnblogs.com/52cik/p/js-question-lg.html)  
   [前端面试](http://www.cnblogs.com/allenxing/p/3724382.html)  
-  [Web开发笔试面试题 大全](http://mianshiti.diandian.com/)  
-  [前端开发面试题](http://segmentfault.com/a/1190000000465431)  
   [2014最新面试题](http://www.html-js.com/article/1743)  
   [2014最新前端面试题](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions)  
   [百度面试](https://github.com/fex-team/interview-questions)  
-  [面试题](http://www.w3cfuns.com/forum.php?mod=forumdisplay&fid=51&filter=typeid&typeid=177)  
-  [前端工作面试问题](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions/tree/master/Chinese)  
   [前端开发面试题](http://segmentfault.com/a/1190000000465431)  
   [5个经典的前端面试问题](http://ourjs.com/detail/5%E4%B8%AA%E7%BB%8F%E5%85%B8%E7%9A%84%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98)  
-  [最全前端面试问题及答案总结](http://segmentfault.com/a/1190000002562454)  
-  [如何面试一名前端开发工程师？](http://www.html-js.com/article/Large-search-front-team-column%202961)  
-  [世上最全面试题](https://github.com/hawx1993/Front-end-Interview-questions)
+
+
+* 2018 面试题：
+  [2018大厂高级前端面试题](http://web.jobbole.com/95403/)
+  [2018 web前端经典面试题](https://www.cnblogs.com/vsmart/p/8889130.html)
+
+* 2019 面试题：
+  [寒冬求职季之你必须要懂的原生JS(上)](https://segmentfault.com/a/1190000018799827?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
+
+### 分类题库：
+* HTML：  
+  [前端面试总结-HTML](https://www.jianshu.com/p/872f8fb425ce)  
+  [前端面试总结2-HTML](https://www.cnblogs.com/En-summerGarden/p/6973522.html) 
+
+* CSS：  
+  [常见CSS基础面试题](http://blog.sina.com.cn/s/blog_17bce02530102xw3e.html)  
+  [CSS面试题汇总](https://blog.csdn.net/u014328357/article/details/58098324)  
+  [CSS常见布局](https://www.sohu.com/a/168143624_274163)  
+  [45道CSS基础面试题](https://www.sohu.com/a/223556954_655394)  
+
+* JS：  
+  [JS面试题汇总](https://blog.csdn.net/u014328357/article/details/58587132)  
+  [50道JS面试题](https://blog.csdn.net/quhongqiang/article/details/80388401)  
+  [常见JS面试题](https://segmentfault.com/a/1190000011875256)  
+  [前端JS 面试题1](https://www.jianshu.com/p/fc1faa8730b2)  
+  [前端JS 面试题2](https://www.jianshu.com/p/1a20dac12cf6)  
+  [前端JS 面试题3](https://www.jianshu.com/p/988840419605)  
+
+
+* 20180421 整理面试题，重新整理文档，删除无效链接；
+* 20180915 更新公司前端面试题库，重新整理github文档，删除无效链接，添加新链接；
+* 20190410 更新公司前端笔试题库；

@@ -23,8 +23,24 @@
 * [gulp 组合任务顺序执行](http://zhangruojun.com/gulpshun-xu-zhi-xing-ren-wu/)
 * 2016-11-16 gulp-sprite 学习，本项目文件结构迁移：将 gulp 依赖包上移至顶级目录；
 
-* 2016-12-02  DOM节点信息包括节点类型（nodeType）、节点名称（nodeName）和节点值（nodeValue）。
-* 2016-12-04 使用了gh-pages分支后就可以使用浏览器访问该项目（相当于放置服务器内容了），该分支比较特殊`git branch -r`竟然无法查看；
+* 2016-12-02  DOM节点信息包括节点类型（nodeType）、节点名称（nodeName）和节点值（nodeValue）；
+* 2016-12-04 在gitHub上使用了gh-pages分支后就可以使用浏览器访问该项目（相当于放置服务器内容了）；
+* 2017-06-29 后续研究： 1.字体图标实践+博文； 2.mock学习；
+* 2017-07-18 gitHub演示地址： wteam-xq.github.io/testDemo/index.html；
+
+* 2018-04-14 目前工程依赖包越来越大，需要整理项目依赖包， 将依赖包分散到各自Demo文件夹内， 
+* 例如: gulp 相关依赖包放置gulp文件夹， webpack 相关依赖包放置 webpack文件夹；
+* 另： 所有依赖包需要升级到兼容node 8.x;
+
+* 2018-12-25 确定基本编码规范 - 格式化： 不使用规范文档限制， 不使用编辑器插件扩展， 不使用node扩展运行检查实现；
+直接vscode编辑器(后续可换成更前卫的主流编辑器)默认格式化快键键格式化代码；代码检查后续可使用编辑器插件自动检查；
+
+```
+"engines": {
+  "node": ">=8.9.0"
+},
+```
+* 待添加： CSS 渲染原理， 解析原理；
 
 ### 遗留bug:
 1.项目中 IE8下，弹出层bug无法重现；（challenge_case/IE8_position）

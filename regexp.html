@@ -70,6 +70,15 @@
           // https://msdn.microsoft.com/zh-cn/library/24th3sah(v=VS.94).aspx
           var regArray = /(\w+)@(\w+)\.(\w+)/g.exec("Please send mail to george@contoso.com and someone@example.com. Thanks!"); // ["george@contoso.com", "george", "contoso", "com"]
           console.log(RegExp['$1']);
+
+          // 是否为url地址
+          var isUrl = /^https?:\/\//.test("http://www.sogou.com");
+          console.log("isUrl:", isUrl);
+
+          // 是否为youtube地址
+					var isYoutube = /(?:www\.)?youtube.com\/watch\?(?=.*v=-{0,1}\w+)(?:\S+)?$/.test("https://www.youtube.com/watch?v=iI0U7_LzGlY");
+          // 是否包含字母、数字、_外其他特殊字符
+					var hasSpecialChar = /ad/.test("a");
         </script>
 
     </body>

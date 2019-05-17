@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="renderer" content="webkit">
+      <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/>
+      <meta charset="utf-8">
+      <title>
+          ECMAScript6 理解 第九章 对象的扩展
+      </title>
+      <style type="text/css">
+        h3{ text-align: center; }
+      </style>
+    </head>
+
+    <body>
+      <h3>对象的扩展</h3>
+
+      <h4>1.属性的简洁表示法</h4>
+      <div>ES6 允许直接写入变量和函数，作为对象的属性和方法。</div>
+
+      <h4>2.属性名表达式</h4>
+      <div>JavaScript语言定义对象的属性，有两种方法。</div>
+      <div>方法一是直接用标识符作为属性名，方法二是用表达式作为属性名，这时要将表达式放在方括号之内。</div>
+      <div>ES6 允许字面量定义对象时，用方法二（表达式）作为对象的属性名，即把表达式放在方括号内。</div>
+
+      <h4>3.方法的 name 属性</h4>
+      <div>函数的name属性，返回函数名。对象方法也是函数，因此也有name属性。</div>
+
+      <h4>4.属性的可枚举性和遍历</h4>
+      <div>可枚举性：</div>
+      <div>对象的每个属性都有一个描述对象（Descriptor），用来控制该属性的行为。Object.getOwnPropertyDescriptor方法可以获取该属性的描述对象。</div>
+      <div>属性的遍历：</div>
+      <div>ES6一共有5种方法可以遍历对象的属性。</div>
+      <div>for...in循环遍历对象自身的和继承的可枚举属性（不含Symbol属性）。</div>
+      <div>Object.keys返回一个数组，包括对象自身的（不含继承的）所有可枚举属性（不含Symbol属性）。</div>
+      <div>Object.getOwnPropertyNames返回一个数组，包含对象自身的所有属性（不含Symbol属性，但是包括不可枚举属性）。</div>
+      <div>Object.getOwnPropertySymbols返回一个数组，包含对象自身的所有Symbol属性。</div>
+      <div>Reflect.ownKeys返回一个数组，包含对象自身的所有属性，不管属性名是Symbol或字符串，也不管是否可枚举。</div>
+
+      <h4>5.super 关键字</h4>
+      <div>我们知道，this关键字总是指向函数所在的当前对象，ES6 又新增了另一个类似的关键字super，指向当前对象的原型对象。</div>
+
+      <h4>6.对象的扩展运算符</h4>
+      <div>《数组的扩展》一章中，已经介绍过扩展运算符（...）。</div>
+      <div>解构赋值：</div>
+      <div>对象的解构赋值用于从一个对象取值，相当于将目标对象自身的所有可遍历的（enumerable）、但尚未被读取的属性，分配到指定的对象上面。所有的键和它们的值，都会拷贝到新对象上面。</div>
+      <div>扩展运算符：</div>
+      <div>对象的扩展运算符（...）用于取出参数对象的所有可遍历属性，拷贝到当前对象之中。</div>
+
+      <script src="../../lib/babel.min.js"></script>
+      <script type="text/babel">
+        const foo = 'bar';
+        const baz = {foo};
+        console.log("baz: ", baz); // {foo: "bar"}
+        // 等同于
+        const baz2 = {foo: foo};
+        
+        let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
+        console.log("x:", x); // 1
+        console.log("y:", y); // 2
+        console.log("z:", z); // { a: 3, b: 4 }
+
+        let z1 = { a: 3, b: 4 };
+        let n = { ...z };
+        console.log("n:", n); // { a: 3, b: 4 }
+      </script>
+    </body>
+</html>
